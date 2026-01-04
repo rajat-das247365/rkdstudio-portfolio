@@ -3,10 +3,9 @@ import React from 'react'
 const Featuredprojects = () => {
   return (
     <div>
-      45345353
+      cggjghf
     </div>
   )
 }
 
 export default Featuredprojects
-
