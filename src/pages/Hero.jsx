@@ -21,7 +21,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="right  w-[30%] flex">
-                <div className="rightCard w-[80%] my-15 flex items-center justify-center border border-slate-800 rounded-4xl bg-slate-600">
+                <div className="rightCard w-[80%] my-15 flex items-center justify-center border border-slate-800 rounded-4xl bg-slate-900/40">
                     <div className=''>
                     <ul className='text-slate-300 flex flex-col justify-center w-60 h-[80%] text-lg '>
                         <li className='mb-10'><span className='text-[#63D0FF]'>#</span> Currently working as Front End Developer.</li>
