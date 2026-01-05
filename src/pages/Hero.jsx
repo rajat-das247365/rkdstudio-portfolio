@@ -2,6 +2,11 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaJs } from "react-icons/fa6";
+import { SiHtml5 } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+import { TbBrandTailwind } from "react-icons/tb";
 
 const Hero = () => {
     return (
@@ -31,7 +36,13 @@ const Hero = () => {
                         Hire Me
                     </button>
                 </div>
-            
+            <div className="icons flex justify-around items-center text-2xl text-slate-200 h-15 w-150 border border-slate-800 ">
+                <FaReact />
+                <FaJs />
+                <SiHtml5 />
+                <SiCss3 />
+                <TbBrandTailwind />
+            </div>
             </div>
             <div className="right  w-[30%] flex">
                 <div className="rightCard w-[80%] h-120 my-15 flex items-center justify-center border border-slate-800 rounded-4xl bg-slate-900/40">

@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import { FaGithub, FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
- 
+ const linkClass =
+    "text-slate-200 hover:text-[#63D0FF] transition hover:border-b-2";
+
+  const activeClass =
+    "text-[#63D0FF] border-b-2 border-[#63D0FF]";
 
   return (
     <div className="w-full bg-[#030712] text-slate-200 border-b border-slate-800 font-mono sticky top-0">
@@ -18,30 +22,38 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8 text-[18px]">
-          <Link
-            className="hover:text-[#63D0FF] transition inline-block border-b-2 border-transparent hover:border-[#63D0FF]"
+          <NavLink
+             className={({ isActive }) =>
+              isActive ? activeClass : linkClass
+            }
             to="/"
           >
             Home
-          </Link>
-          <Link
-            className="hover:text-[#63D0FF] transition inline-block border-b-2 border-transparent hover:border-[#63D0FF]"
+          </NavLink>
+          <NavLink
+               className={({ isActive }) =>
+              isActive ? activeClass : linkClass
+            }
             to="/projects"
           >
             Projects
-          </Link>
-          <Link
-            className="hover:text-[#63D0FF] transition inline-block border-b-2 border-transparent hover:border-[#63D0FF]"
+          </NavLink>
+          <NavLink
+               className={({ isActive }) =>
+              isActive ? activeClass : linkClass
+            }
             to="/about"
           >
             About
-          </Link>
-          <Link
-            className="hover:text-[#63D0FF] transition inline-block border-b-2 border-transparent hover:border-[#63D0FF]"
+          </NavLink>
+          <NavLink
+               className={({ isActive }) =>
+              isActive ? activeClass : linkClass
+            }
             to="/contact"
           >
             Contact
-          </Link>
+          </NavLink>
           
 
           <a

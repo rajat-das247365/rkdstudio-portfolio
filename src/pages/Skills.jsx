@@ -1,8 +1,22 @@
 import React from "react";
+import { FaReact } from "react-icons/fa";
+import { FaJs } from "react-icons/fa6";
+import { SiHtml5 } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+import { TbBrandTailwind } from "react-icons/tb";
 
 const Skills = () => {
   return (
     <div className="w-full">
+      <div className="icon w-full flex justify-center mb-10">
+           <div className="icons flex justify-around items-center text-2xl text-slate-200 h-15 w-150 border border-slate-800 ">
+                      <FaReact />
+                      <FaJs />
+                      <SiHtml5 />
+                      <SiCss3 />
+                      <TbBrandTailwind />
+                  </div>
+                  </div>
       <section className="w-full border border-slate-800 flex justify-center mb-10 px-4 py-6">
         <div className="w-full max-w-6xl text-slate-300">
           <h1 className="mt-10 text-4xl font-semibold">Skills</h1>
