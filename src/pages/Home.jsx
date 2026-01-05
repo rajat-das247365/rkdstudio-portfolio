@@ -28,12 +28,7 @@ const Home = () => {
           >
             FEATURED
           </Link>
-          <Link
-            className="text-[#63D0FF] font-semibold text-l hover:text-slate-200"
-            to="calltoaction"
-          >
-            CTA
-          </Link>
+         
         </div>
 
         {/* Nested content */}
