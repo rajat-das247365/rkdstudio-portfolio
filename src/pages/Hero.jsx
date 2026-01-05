@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Hero = () => {
     return (
         <div className=" w- border border-slate-800 flex">
-            <div className=" left w-[70%] h-full  flex flex-col items-center justify-center px-10 gap-8 text-slate-400">
+            <div className=" left w-[70%] h-full  flex flex-col items-center justify-center px-10 gap-8 py-15 text-slate-400">
                 <h4 className="text-3xl font-bold tracking-widest">
                     HELLO<span className="text-indigo-500">!</span>
                 </h4>
@@ -34,7 +34,7 @@ const Hero = () => {
             
             </div>
             <div className="right  w-[30%] flex">
-                <div className="rightCard w-[80%] h-100 my-15 flex items-center justify-center border border-slate-800 rounded-4xl bg-slate-900/40">
+                <div className="rightCard w-[80%] h-120 my-15 flex items-center justify-center border border-slate-800 rounded-4xl bg-slate-900/40">
                     <div className="">
                         <ul className="text-slate-300 flex flex-col justify-center w-60 text-lg ">
                             <li className="mb-10">
@@ -42,14 +42,14 @@ const Hero = () => {
                                 Front End Developer.
                             </li>
                             <li className="mb-10">
-                                <span className="text-[#63D0FF]">#</span> 1+ year experience.
+                                <span className="text-[#63D0FF]">#</span> 1+ year experience building frontend applications.
                             </li>
                             <li className="mb-10">
                                 <span className="text-[#63D0FF]">#</span> React · HTML · CSS ·
                                 JavaScript · Tailwind CSS{" "}
                             </li>
                             <li className="">
-                                <span className="text-[#63D0FF]">#</span> Open to opportunities.
+                                <span className="text-[#63D0FF]">#</span> Open to frontend developer roles opportunities.
                             </li>
                         </ul>
                     </div>
