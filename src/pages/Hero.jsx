@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <div className=" w-full h-full border border-slate-800 flex">
+        <div className=" w- border border-slate-800 flex">
             <div className=" left w-[70%] h-full  flex flex-col items-center justify-center px-10 gap-8 text-slate-400">
                 <h4 className="text-3xl font-bold tracking-widest">
                     HELLO<span className="text-indigo-500">!</span>
@@ -27,26 +27,16 @@ const Hero = () => {
                     </span>
                 </h4>
                 <div className="btn  text-center leading-relaxed text-slate-200 rounded-2xl ">
-                    <button className="w-40 bg-[#032236] text-xl font-semibold p-1 hover:border-indigo-500 hover:text-indigo-500 border border-[#63D0FF] text-[#63D0FF] mt-4 cursor-pointer">
+                    <button className="text-lg w-40 mt-8 px-6 py-3 border border-[#63D0FF] text-[#63D0FF] rounded hover:bg-[#63D0FF] hover:text-[#030712] transition cursor-pointer">
                         Hire Me
                     </button>
                 </div>
-                <div className="social flex w-50 justify-around p-3 text-2xl text-slate-200">
-                    <a href="">
-                        <FaGithub />
-                    </a>
-                    <a href="">
-                        <FaXTwitter />
-                    </a>
-                    <a href="">
-                        <FaLinkedin />
-                    </a>
-                </div>
+            
             </div>
             <div className="right  w-[30%] flex">
-                <div className="rightCard w-[80%] my-15 flex items-center justify-center border border-slate-800 rounded-4xl bg-slate-900/40">
+                <div className="rightCard w-[80%] h-100 my-15 flex items-center justify-center border border-slate-800 rounded-4xl bg-slate-900/40">
                     <div className="">
-                        <ul className="text-slate-300 flex flex-col justify-center w-60 h-[80%] text-lg ">
+                        <ul className="text-slate-300 flex flex-col justify-center w-60 text-lg ">
                             <li className="mb-10">
                                 <span className="text-[#63D0FF]">#</span> Currently working as
                                 Front End Developer.

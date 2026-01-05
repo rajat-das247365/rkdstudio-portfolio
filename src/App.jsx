@@ -10,6 +10,7 @@ import Hero from "./pages/Hero";
 import Skills from "./pages/Skills";
 import Featuredprojects from "./pages/Featuredprojects";
 import Calltoaction from "./pages/Calltoaction";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Invalid />} />
       </Routes>
+      
     </div>
   );
 };

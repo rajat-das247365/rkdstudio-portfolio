@@ -6,31 +6,31 @@ const projects = [
     description:
       "Personal portfolio built to showcase front end skills and projects.",
     tech: "React · Tailwind CSS · React Router",
-    live: "#",
-    code: "#",
+    live: "*",
+    code: "*",
   },
   {
     title: "API Dashboard",
     description:
       "Data driven dashboard with API integration, filtering, and loading states.",
     tech: "React · REST API · Tailwind",
-    live: "#",
-    code: "#",
+    live: "*",
+    code: "*",
   },
   {
     title: "UI Form System",
     description:
       "Reusable form components with validation and clean UX patterns.",
     tech: "React · JavaScript · Tailwind",
-    live: "#",
-    code: "#",
+    live: "*",
+    code: "*",
   },
 ];
 
 const FeaturedProjects = () => {
   return (
-    <section id="projects" className="w-full h-[90%] py-20 border border-slate-800 relative">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col absolute left-45 top-15 ">
+    <section id="projects" className="w-full h-[90%] py-20 border border-slate-800">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col  ">
 
         {/* Section Header */}
         <div className="mb-12 max-w-xl">
