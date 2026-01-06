@@ -5,10 +5,13 @@ import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
-    <section
+    <div className="w-full min-h-screen flex justify-between bg-slate-950 ">
+                  <div className="border w-10 min-h-full border-t-0 border-l-0 border-gray-600/50  bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.09)_1px,transparent_1px,transparent_8px)]"></div>
+                      <section
       id="contact"
-      className="w-full py-24 border bg-slate-950"
+      className="w-full py-24 border font-mono"
     >
+
       <div className="max-w-3xl h-100 mx-auto px-6 text-center ">
 
         {/* Heading */}
@@ -71,6 +74,10 @@ const Contact = () => {
       </div>
       <Footer />
     </section>
+                  <div className="border w-10 min-h-full border-t-0 border-r-0 border-gray-600/50  bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.09)_1px,transparent_1px,transparent_8px)]"></div>
+
+
+    </div>
   );
 };
 
