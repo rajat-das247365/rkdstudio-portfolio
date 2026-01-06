@@ -1,8 +1,10 @@
 import React from "react";
+import profileImg from "../assets/about.webp";
+
 
 const About = () => {
   return (
-    <div className="bg-[#030712] w-full min-h-screen flex justify-between text-slate-200 font-mono">
+    <div className="bg-[#030712] w-full min-h-screen flex justify-between text-slate-200 ">
 
       <div className="border w-10 min-h-screen border-t-0 border-l-0 border-gray-600/50  bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.09)_1px,transparent_1px,transparent_8px)]"></div>
       <div id="About" className="w-full h-130 border border-slate-800 my-16 flex justify-center items-center">
@@ -39,7 +41,7 @@ const About = () => {
               <div className="border w-10 min-h-full border-t-0 border-b-0  border-gray-600/50  bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.09)_1px,transparent_1px,transparent_8px)]"></div>
 
         <div className="right w-100 h-100  overflow-hidden ">
-          
+          <img src={profileImg} className="object-cover" alt="" />
         </div>
       </div>
       <div className="border w-10 min-h-screen border-t-0 border-r-0 border-gray-600/50  bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.09)_1px,transparent_1px,transparent_8px)]"></div>
