@@ -39,7 +39,7 @@ const About = () => {
               <div className="border w-10 min-h-full border-t-0 border-b-0  border-gray-600/50  bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.09)_1px,transparent_1px,transparent_8px)]"></div>
 
         <div className="right w-100 h-100  overflow-hidden ">
-          <img className="object-cover" src="" alt="" />
+          
         </div>
       </div>
       <div className="border w-10 min-h-screen border-t-0 border-r-0 border-gray-600/50  bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.09)_1px,transparent_1px,transparent_8px)]"></div>
