@@ -6,7 +6,7 @@ const projects = [
     description:
       "Personal portfolio built to showcase front end skills and projects.",
     tech: "React · Tailwind CSS · React Router",
-    live: "*",
+    live: "https://rajat-das247365.github.io/rkdstudio-portfolio/",
     code: "*",
   },
   {
