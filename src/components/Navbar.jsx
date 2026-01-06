@@ -21,7 +21,7 @@ const Navbar = () => {
         </h1>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8 text-[18px]">
+        <div className="hidden md:flex items-center gap-8 text-[18px] w-150 justify-around">
           <NavLink
              className={({ isActive }) =>
               isActive ? activeClass : linkClass
