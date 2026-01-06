@@ -31,18 +31,30 @@ const Hero = () => {
                         React and modern CSS
                     </span>
                 </h4>
-                <div className="btn  text-center leading-relaxed text-slate-200 rounded-2xl ">
-                    <button className="text-lg w-40 mt-8 px-6 py-3 border border-[#63D0FF] text-[#63D0FF] rounded hover:bg-[#63D0FF] hover:text-[#030712] transition cursor-pointer">
+                <div className="btn  text-center leading-relaxed text-slate-200 rounded-2xl w-100  flex justify-around items-center">
+                    <button className="text-lg w-40  px-6 py-3 border border-[#63D0FF] text-[#63D0FF] rounded hover:bg-[#63D0FF] hover:text-[#030712] transition cursor-pointer">
                         Hire Me
                     </button>
+                    <button className="text-lg w-40  px-6 py-3 border border-[#63D0FF] text-[#63D0FF] rounded hover:bg-[#63D0FF] hover:text-[#030712] transition cursor-pointer">
+                        <a
+                            href="/rkd.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+             
+                        >
+                            View CV
+                        </a>
+
+
+                    </button>
                 </div>
-            <div className="icons flex justify-around items-center text-2xl text-slate-200 h-15 w-150 border border-slate-800 ">
-                <FaReact />
-                <FaJs />
-                <SiHtml5 />
-                <SiCss3 />
-                <TbBrandTailwind />
-            </div>
+                <div className="icons flex justify-around items-center text-2xl text-slate-200 h-15 w-150 border border-slate-800 ">
+                    <FaReact />
+                    <FaJs />
+                    <SiHtml5 />
+                    <SiCss3 />
+                    <TbBrandTailwind />
+                </div>
             </div>
             <div className="right  w-[30%] flex">
                 <div className="rightCard w-[80%] h-120 my-15 flex items-center justify-center border border-slate-800 rounded-4xl bg-slate-900/40">

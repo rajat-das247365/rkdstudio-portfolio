@@ -7,7 +7,7 @@ const Home = () => {
     "text-[#63D0FF] font-semibold text-l hover:text-slate-200";
 
   const activeClass =
-    "text-slate-200";
+    "text-slate-200 font-bold";
   return (
     <div className="min-h-screen bg-[#030712] text-slate-200 font-mono flex justify-between">
       <div className="border w-10 min-h-full border-t-0 border-l-0 border-gray-600/50  bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.09)_1px,transparent_1px,transparent_8px)]"></div>

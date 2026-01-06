@@ -12,9 +12,9 @@ const Footer = () => {
     });
 }
   return (
-    <div className="w-full h-40 flex justify-between items-center bg-slate-950">
+    <div className="w-full flex justify-between items-center bg-slate-950">
 
-    <footer className="w-full h-full border-t border-slate-800  ">
+    <footer className="w-full  border-t border-slate-800  ">
 
       <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
 

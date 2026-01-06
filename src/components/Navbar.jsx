@@ -9,7 +9,7 @@ const Navbar = () => {
     "text-slate-200 hover:text-[#63D0FF] transition hover:border-b-2";
 
   const activeClass =
-    "text-[#63D0FF] border-b-2 border-[#63D0FF]";
+    "text-[#63D0FF] border-b-2 border-[#63D0FF] text-lg ";
 
   return (
     <div className="w-full bg-[#030712] text-slate-200 border-b border-slate-800 font-mono sticky top-0">
@@ -70,6 +70,20 @@ const Navbar = () => {
         <button className="md:hidden text-2xl" onClick={() => setOpen(!open)}>
           {open ? <FaTimes /> : <FaBars />}
         </button>
+            <button>
+                        <a
+                            href="/rkd.pdf"
+                            download
+                            className="inline-flex items-center justify-center
+             px-4 py-1 rounded-lg border border-indigo-500
+             text-indigo-400 font-medium
+             hover:bg-indigo-500 hover:text-white
+             transition"
+                        >
+                            Download CV
+                        </a>
+
+                    </button>
       </div>
 
       {/* Mobile Menu */}
