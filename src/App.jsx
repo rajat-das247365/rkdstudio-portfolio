@@ -11,6 +11,7 @@ import Skills from "./pages/Skills";
 import Featuredprojects from "./pages/Featuredprojects";
 import Calltoaction from "./pages/Calltoaction";
 import Footer from "./components/Footer";
+import Certifications from "./pages/Certifications";
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
           <Route path="hero" element={<Hero />} />
           <Route path="skills" element={<Skills />} />
           <Route path="featuredprojects" element={<Featuredprojects />} />
-          <Route path="calltoaction" element={<Calltoaction />} />
+          <Route path="certifications" element={<Certifications />} />
         </Route>
 
         <Route path="/projects" element={<Projects />} />

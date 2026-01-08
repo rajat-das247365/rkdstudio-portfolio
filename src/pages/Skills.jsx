@@ -28,7 +28,7 @@ const Skills = () => {
 
           {/* Cards */}
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="border border-slate-800 rounded-2xl bg-slate-900/40 px-8 py-6">
+            <div className="border border-slate-800 rounded-2xl bg-slate-900/40 px-8 py-6 hover:border-indigo-500/50 transition">
               <h3 className="mb-4 text-lg font-medium">Frontend</h3>
               <ul className="space-y-2 text-slate-400">
                 <li>React</li>
@@ -38,7 +38,7 @@ const Skills = () => {
               </ul>
             </div>
 
-            <div className="border border-slate-800 rounded-2xl bg-slate-900/40 px-8 py-6">
+            <div className="border border-slate-800 rounded-2xl bg-slate-900/40 px-8 py-6 hover:border-indigo-500/50 transition">
               <h3 className="mb-4 text-lg font-medium">Styling & UI</h3>
               <ul className="space-y-2 text-slate-400">
                 <li>Tailwind CSS</li>
@@ -47,7 +47,7 @@ const Skills = () => {
               </ul>
             </div>
 
-            <div className="border border-slate-800 rounded-2xl bg-slate-900/40 px-8 py-6">
+            <div className="border border-slate-800 rounded-2xl bg-slate-900/40 px-8 py-6 hover:border-indigo-500/50 transition">
               <h3 className="mb-4 text-lg font-medium">Tools & Workflow</h3>
               <ul className="space-y-2 text-slate-400">
                 <li>Git & GitHub</li>

@@ -48,7 +48,7 @@ const FeaturedProjects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="border border-slate-800 rounded-xl p-6 bg-slate-900/40 flex flex-col justify-between"
+              className="border border-slate-800 rounded-xl p-6 bg-slate-900/40 flex flex-col justify-between hover:border-indigo-500/50 transition"
             >
               <div>
                 <h3 className="text-lg font-medium text-slate-100">

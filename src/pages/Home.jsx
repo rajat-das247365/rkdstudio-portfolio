@@ -15,7 +15,7 @@ const Home = () => {
       <div className="w-full flex flex-col items-center">
 
         {/* Hero Nav */}
-        <div className=" w-full h-15 text-2xl border border-slate-800 mt-10 flex justify-around items-center bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.09)_1px,transparent_1px,transparent_8px)] ">
+        <div className="sticky top-20 w-full h-15 text-xl border border-slate-800 mt-10 flex justify-around items-center bg-[repeating-linear-gradient(135deg,rgba(255,255,255,0.04)_0,rgba(255,255,255,0.09)_1px,transparent_1px,transparent_8px)] ">
           <NavLink
                className={({ isActive }) =>
               isActive ? activeClass : linkClass
@@ -39,6 +39,14 @@ const Home = () => {
             to="featuredprojects"
           >
             FEATURED
+          </NavLink>
+             <NavLink
+              className={({ isActive }) =>
+              isActive ? activeClass : linkClass
+            }
+            to="certifications"
+          >
+            CERTIFICATIONS
           </NavLink>
 
         </div>
