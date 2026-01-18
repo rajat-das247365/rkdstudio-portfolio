@@ -67,6 +67,7 @@ const FeaturedProjects = () => {
               <div className="mt-6 flex items-center gap-4">
                 <a
                   href={project.live}
+                  target="blank"
                   className="text-indigo-500 text-sm font-medium hover:underline underline-offset-4"
                 >
                   Live Demo
