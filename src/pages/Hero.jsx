@@ -37,12 +37,13 @@ const Hero = () => {
                     </button>
                     <button className="text-lg w-40  px-6 py-3 border border-[#63D0FF] text-[#63D0FF] rounded hover:bg-[#63D0FF] hover:text-[#030712] transition cursor-pointer">
                         <a
-                            href="/rkd.pdf"
+                            href='/rkd.pdf'
+                            download
                             target="_blank"
                             rel="noreferrer"
              
                         >
-                            View CV
+                            Downlaod CV
                         </a>
 
 
