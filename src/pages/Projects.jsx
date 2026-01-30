@@ -81,8 +81,8 @@ const Projects = () => {
             
             <h3 className="text-slate-100 text-lg tracking-wider">{project.title}</h3>
             <p className="mt-5">{project.description}</p>
-              <div className="img w-full h-60 border overflow-hidden border-gray-600/50 my-4">
-            <img className="h-full object-cover " src={project.image} alt="" />
+              <div className="img w-full  border overflow-hidden border-gray-600/50 my-4">
+            <img className=" object-cover " src={project.image} alt="" />
             </div>
             <p className="w-full flex justify-around">{project.tech}
             </p>
