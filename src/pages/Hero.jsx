@@ -43,7 +43,7 @@ const Hero = () => {
                             rel="noreferrer"
              
                         >
-                            Downlaod CV
+                            Download CV
                         </a>
 
 
