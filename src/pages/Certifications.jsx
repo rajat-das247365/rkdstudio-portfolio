@@ -50,7 +50,7 @@ const Certifications = () => {
           </h3>
 
           <p className="text-slate-400 mt-1">
-            {cert.issuer} · {cert.year}
+            {cert.issuer} 
           </p>
 
           {cert.link && (
