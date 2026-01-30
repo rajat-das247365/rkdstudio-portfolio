@@ -1,16 +1,20 @@
 import React from "react";
 import Footer from "../components/Footer";
 import { href } from "react-router-dom";
+import issueImg from "../assets/issue.png";
+import coffee from "../assets/cofee.png";
+import education from "../assets/edu.png";
 
 const Projects = () => {
     const projects = [
     {
-      title: "Portfolio Website",
+      title: "Issue tracker",
       description:
-        "Personal portfolio built with React and Tailwind CSS to showcase projects and skills with a clean, responsive layout.",
+        "Issue tracker is a user management dashboard similar to what admins use internally.",
       tech: ["React","Tailwind CSS", "React Router"],
       github: "https://github.com/your-username/portfolio",
-      live: "https://yourportfolio.com",
+      live: " https://rajat-das247365.github.io/issue-tracker/",
+      image:issueImg,
     },
       {
       title: "Portfolio Website",
@@ -21,12 +25,13 @@ const Projects = () => {
       live: "https://yourportfolio.com",
     },
       {
-      title: "Portfolio Website",
+      title: "Coffee Cafe",
       description:
-        "Personal portfolio built with React and Tailwind CSS to showcase projects and skills with a clean, responsive layout.",
+        "Coffee Cafe is a responsive coffee shop landing page built with React and Tailwind CSS. It showcases featured drinks, daily deals.",
       tech: ["React", "Tailwind CSS", "React Router"],
       github: "https://github.com/your-username/portfolio",
-      live: "https://yourportfolio.com",
+      live: "https://rajat-das247365.github.io/coffee-cafe/",
+      image:coffee,
     },
       {
       title: "Portfolio Website",
@@ -36,13 +41,14 @@ const Projects = () => {
       github: "https://github.com/your-username/portfolio",
       live: "https://yourportfolio.com",
     },
-      {
-      title: "Portfolio Website",
+         {
+      title: "Study in India",
       description:
-        "Personal portfolio built with React and Tailwind CSS to showcase projects and skills with a clean, responsive layout.",
+        "A responsive education landing page built with React, Vite, and Tailwind CSS, featuring modern UI, gradient styling, and reusable components.",
       tech: ["React", "Tailwind CSS", "React Router"],
       github: "https://github.com/your-username/portfolio",
-      live: "https://yourportfolio.com",
+      live: " https://rajat-das247365.github.io/education-company/",
+      image:education,
     },
       {
       title: "Portfolio Website",
@@ -52,6 +58,7 @@ const Projects = () => {
       github: "https://github.com/your-username/portfolio",
       live: "https://yourportfolio.com",
     },
+ 
   ]
   return (
     <div className="w-full min-h-screen flex justify-between bg-slate-950 font-mono font-extrabold">
@@ -74,15 +81,15 @@ const Projects = () => {
             
             <h3 className="text-slate-100 text-lg tracking-wider">{project.title}</h3>
             <p className="mt-5">{project.description}</p>
-              <div className="img w-full h-60 border border-gray-600/50 my-4">
-            
+              <div className="img w-full h-60 border overflow-hidden border-gray-600/50 my-4">
+            <img className="h-full object-cover " src={project.image} alt="" />
             </div>
             <p className="w-full flex justify-around">{project.tech}
             </p>
           
             <div className="linkss w-full flex justify-around mt-2">
           <a className="text-indigo-500 hover:border-b" href={project.github}>Github</a>
-          <a className="hover:text-slate-100" href={project.live}>Live demo</a>
+          <a target="blank" className="hover:text-slate-100" href={project.live}>Live demo</a>
           </div>
             
 

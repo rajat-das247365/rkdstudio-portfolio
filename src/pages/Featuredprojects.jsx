@@ -1,4 +1,7 @@
 import React from "react";
+import team from "../assets/team.png";
+import port from "../assets/port.png";
+import arcbyte from "../assets/arcbyte.png";
 
 const projects = [
   {
@@ -8,22 +11,25 @@ const projects = [
     tech: "React · Tailwind CSS · React Router",
     live: "https://rajat-das247365.github.io/rkdstudio-portfolio/",
     code: "*",
+    image: port,
   },
   {
-    title: "API Dashboard",
+    title: "Arcbyte",
     description:
-      "Data driven dashboard with API integration, filtering, and loading states.",
+      "A modern, cinematic landing page built with React + Vite, featuring glassmorphism UI, subtle neon interactions, and a dark sci-fi design system.",
     tech: "React · REST API · Tailwind",
-    live: "*",
+    live: "https://rajat-das247365.github.io/Arcbyte-Studio/",
     code: "*",
+    image: arcbyte,
   },
   {
-    title: "UI Form System",
+    title: "Team Console",
     description:
-      "Reusable form components with validation and clean UX patterns.",
+      "Team console is a user management dashboard similar to what admins use internally. It handles real world cases like loading states, validation, error handling, and responsive layouts.",
     tech: "React · JavaScript · Tailwind",
-    live: "*",
+    live: "https://rajat-das247365.github.io/Team-console/",
     code: "*",
+    image: team,
   },
 ];
 
@@ -58,6 +64,7 @@ const FeaturedProjects = () => {
                 <p className="mt-2 text-slate-400 text-sm leading-relaxed">
                   {project.description}
                 </p>
+              <img className="my-8   object-fill" src={project.image} alt="" />
 
                 <p className="mt-4 text-sm text-slate-500">
                   {project.tech}
