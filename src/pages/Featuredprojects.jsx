@@ -2,17 +2,18 @@ import React from "react";
 import team from "../assets/team.png";
 import port from "../assets/port.png";
 import arcbyte from "../assets/arcbyte.png";
+import validation from "../assets/validation.png";
 
 const projects = [
-  {
-    title: "Portfolio Website",
-    description:
-      "Personal portfolio built to showcase front end skills and projects.",
-    tech: "React · Tailwind CSS · React Router",
-    live: "https://rajat-das247365.github.io/rkdstudio-portfolio/",
-    code: "*",
-    image: port,
-  },
+       {
+      title: "Form validation",
+      description:
+        "A production-level authentication form Includes advanced password validation, visibility toggle, animated toast notifications, and GitHub Pages deployment support.",
+      tech: "React · REST API · Tailwind",
+      github: "https://github.com/your-username/portfolio",
+      live: "https://rajat-das247365.github.io/form/",
+      image:validation,
+    },
   {
     title: "Arcbyte",
     description:
