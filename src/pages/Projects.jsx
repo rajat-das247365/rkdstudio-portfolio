@@ -5,6 +5,7 @@ import issueImg from "../assets/issue.png";
 import coffee from "../assets/cofee.png";
 import education from "../assets/edu.png";
 import validation from "../assets/validation.png";
+import port from "../assets/port.png";
 
 const Projects = () => {
     const projects = [
@@ -17,15 +18,7 @@ const Projects = () => {
       live: " https://rajat-das247365.github.io/issue-tracker/",
       image:issueImg,
     },
-      {
-      title: "Form validation",
-      description:
-        "A production-level authentication form Includes advanced password validation, visibility toggle, animated toast notifications, and GitHub Pages deployment support.",
-      
-      github: "https://github.com/your-username/portfolio",
-      live: "https://rajat-das247365.github.io/form/",
-      image:validation,
-    },
+ 
       {
       title: "Coffee Cafe",
       description:
@@ -35,6 +28,15 @@ const Projects = () => {
       live: "https://rajat-das247365.github.io/coffee-cafe/",
       image:coffee,
     },
+         {
+      title: "Form validation",
+      description:
+        "A production-level authentication form Includes advanced password validation, visibility toggle, animated toast notifications, and GitHub Pages deployment support.",
+      
+      github: "https://github.com/your-username/portfolio",
+      live: "https://rajat-das247365.github.io/form/",
+      image:validation,
+    },
       {
       title: "Portfolio Website",
       description:
@@ -42,6 +44,7 @@ const Projects = () => {
       tech: ["React", "Tailwind CSS", "React Router"],
       github: "https://github.com/your-username/portfolio",
       live: "https://yourportfolio.com",
+      image:port,
     },
          {
       title: "Study in India",
