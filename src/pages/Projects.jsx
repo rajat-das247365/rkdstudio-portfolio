@@ -4,6 +4,7 @@ import { href } from "react-router-dom";
 import issueImg from "../assets/issue.png";
 import coffee from "../assets/cofee.png";
 import education from "../assets/edu.png";
+import validation from "../assets/validation.png";
 
 const Projects = () => {
     const projects = [
@@ -17,12 +18,13 @@ const Projects = () => {
       image:issueImg,
     },
       {
-      title: "Portfolio Website",
+      title: "Form validation",
       description:
-        "Personal portfolio built with React and Tailwind CSS to showcase projects and skills with a clean, responsive layout.",
-      tech: ["React", "Tailwind CSS", "React Router"],
+        "A production-level authentication form Includes advanced password validation, visibility toggle, animated toast notifications, and GitHub Pages deployment support.",
+      
       github: "https://github.com/your-username/portfolio",
-      live: "https://yourportfolio.com",
+      live: "https://rajat-das247365.github.io/form/",
+      image:validation,
     },
       {
       title: "Coffee Cafe",
