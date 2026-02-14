@@ -6,6 +6,8 @@ import coffee from "../assets/cofee.png";
 import education from "../assets/edu.png";
 import validation from "../assets/validation.png";
 import port from "../assets/port.png";
+import team from "../assets/team.png";
+import arcbyte from "../assets/arcbyte.png";
 
 const Projects = () => {
     const projects = [
@@ -37,15 +39,15 @@ const Projects = () => {
       live: "https://rajat-das247365.github.io/form/",
       image:validation,
     },
-      {
-      title: "Portfolio Website",
-      description:
-        "Personal portfolio built with React and Tailwind CSS to showcase projects and skills with a clean, responsive layout.",
-      tech: ["React", "Tailwind CSS", "React Router"],
-      github: "https://github.com/your-username/portfolio",
-      live: "https://yourportfolio.com",
-      image:port,
-    },
+   {
+     title: "Team Console",
+     description:
+       "Team console is a user management dashboard similar to what admins use internally. It handles real world cases like loading states, validation, error handling, and responsive layouts.",
+     tech: "React · JavaScript · Tailwind",
+     live: "https://rajat-das247365.github.io/Team-console/",
+     code: "*",
+     image: team,
+   },
          {
       title: "Study in India",
       description:
@@ -55,13 +57,14 @@ const Projects = () => {
       live: " https://rajat-das247365.github.io/education-company/",
       image:education,
     },
-      {
-      title: "Portfolio Website",
+    {
+      title: "Arcbyte",
       description:
-        "Personal portfolio built with React and Tailwind CSS to showcase projects and skills with a clean, responsive layout.",
-      tech: ["React", "Tailwind CSS", "React Router"],
-      github: "https://github.com/your-username/portfolio",
-      live: "https://yourportfolio.com",
+        "A modern, cinematic landing page built with React + Vite, featuring glassmorphism UI, subtle neon interactions, and a dark sci-fi design system.",
+      tech: "React · REST API · Tailwind",
+      live: "https://rajat-das247365.github.io/Arcbyte-Studio/",
+      code: "*",
+      image: arcbyte,
     },
  
   ]
